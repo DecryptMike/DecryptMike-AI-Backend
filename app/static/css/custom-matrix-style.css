@@ -1,0 +1,79 @@
+/* 🌐 Body Background */
+body {
+  background-color: #000 !important;
+  background-image: url("/matrix-rain.gif");
+  background-size: cover;
+  background-repeat: repeat;
+  color: #34d399 !important;
+  font-family: 'Courier New', Courier, monospace !important;
+}
+
+/* 🚫 Hide Default Swagger Topbar */
+.swagger-ui .topbar {
+  display: none !important;
+}
+
+/* ✅ Custom Topbar Section */
+.topbar-custom {
+  display: flex;
+  justify-content: center;         /* Center horizontally */
+  padding: 2rem 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.topbar-custom .header-box {
+  display: flex;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: rgba(0, 0, 0, 0.85);  /* Transparent Black */
+  border: 1px solid #34d399;
+  border-radius: 10px;
+}
+
+.header-box img {
+  height: 60px;
+  margin-right: 15px;
+}
+
+.header-box h1 {
+  color: #34d399;
+  font-size: 1.5rem;
+  font-family: 'Courier New', Courier, monospace;
+  margin: 0;
+}
+
+/* 📦 Swagger Main Boxes */
+.swagger-ui .info,
+.swagger-ui .scheme-container,
+.swagger-ui .opblock,
+.swagger-ui .models,
+.swagger-ui .model-box,
+.swagger-ui .model-title {
+  background-color: rgba(0, 0, 0, 0.85) !important;
+  border: 1px solid #34d399 !important;
+  border-radius: 8px !important;
+  padding: 1rem;
+}
+
+/* ✅ Green Method Labels */
+.swagger-ui .opblock-summary-method {
+  background-color: #34d399 !important;
+  color: #000 !important;
+}
+
+/* 🔘 Buttons & Inputs */
+.swagger-ui .btn,
+.swagger-ui .btn:hover,
+.swagger-ui input,
+.swagger-ui select {
+  background-color: #000 !important;
+  color: #34d399 !important;
+  border: 1px solid #34d399 !important;
+}
+
+/* 🧾 Adjust Code Blocks for Visibility */
+.swagger-ui pre {
+  background-color: #000 !important;
+  color: #34d399 !important;
+}

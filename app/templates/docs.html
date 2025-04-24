@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Decrypt Mike AI Phishing Detector</title>
+
+    <!-- Matrix Custom CSS -->
+    <link rel="stylesheet" type="text/css" href="/static/css/custom-matrix-style.css" />
+
+    <!-- Swagger UI Core -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swagger-ui-dist/swagger-ui.css" />
+  </head>
+  <body>
+
+    <!-- ✅ Matrix Topbar (injects before Swagger) -->
+    <div class="topbar-custom">
+      <div class="header-box">
+        <img src="/a34.png" height="60" alt="DecryptMike Logo" />
+        <h1>Decrypt Mike AI Phishing Detector</h1>
+      </div>
+    </div>    
+
+    <!-- ✅ Swagger Container -->
+    <div id="swagger-ui"></div>
+
+    <!-- ✅ Swagger Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/swagger-ui-dist/swagger-ui-bundle.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swagger-ui-dist/swagger-ui-standalone-preset.js"></script>
+
+    <!-- ✅ Swagger Init -->
+    <script>
+      window.onload = () => {
+        SwaggerUIBundle({
+          url: "/openapi.json",
+          dom_id: "#swagger-ui",
+          deepLinking: true,
+          presets: [
+            SwaggerUIBundle.presets.apis,
+            SwaggerUIStandalonePreset
+          ],
+          layout: "StandaloneLayout"
+        });
+      };
+    </script>
+
+    <!-- ✅ Matrix Rain Script -->
+    <script src="/static/js/matrix.js"></script>
+  </body>
+</html>
