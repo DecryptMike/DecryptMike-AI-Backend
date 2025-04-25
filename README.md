@@ -17,7 +17,7 @@
   🧠 DecryptMike AI Phishing Detector - Backend
 </h2>
 
-<h5 align="center">A production-ready SaaS Starter Kit with authentication, RBAC, Stripe billing, PostgreSQL,<br> and a fully custom cyberpunk dashboard UI.
+<h5 align="center">A FastAPI-powered backend for real-time phishing email analysis, using HuggingFace’s bert-base-uncased-emotion model. Provides secure API endpoints for emotion detection, with a custom Matrix-themed Swagger UI. Deployed on Render for live production access.
 </h5>
 
 ---
