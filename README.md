@@ -22,14 +22,6 @@
 
 ---
 
-## 📸 Screenshot
-
-### Backend
-
-<p align="center">
-  <img src="DecryptMike Backend Render.png" width="100%" alt="Sign In Page">
-</p>
-
 ## 🧪 API Endpoints
 
 | Method | Endpoint       | Description                   |
@@ -47,6 +39,16 @@
 - `Pydantic` – request validation
 - `Uvicorn` – ASGI server
 - `Render` – hosting the live API
+
+---
+
+## 📸 Screenshot
+
+### Backend
+
+<p align="center">
+  <img src="DecryptMike Backend Render.png" width="100%" alt="Sign In Page">
+</p>
 
 ---
 
