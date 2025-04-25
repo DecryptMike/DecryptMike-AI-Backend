@@ -27,7 +27,7 @@
 ### Backend
 
 <p align="center">
-  <img src="DecryptMike Access.png" width="100%" alt="Sign In Page">
+  <img src="DecryptMike Backend Render.png" width="100%" alt="Sign In Page">
 </p>
 
 ## 🧪 API Endpoints
