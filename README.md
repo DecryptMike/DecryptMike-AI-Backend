@@ -6,8 +6,7 @@
 [![Swagger UI](https://img.shields.io/badge/Docs-Custom%20Matrix_UI-black?style=flat-square&logo=swagger)](https://decryptmike-backend.onrender.com/docs)
 [![Live Backend](https://img.shields.io/badge/Backend-Live-brightgreen?style=flat-square)](https://decryptmike-backend.onrender.com)
 [![Open Source](https://img.shields.io/badge/Open--Source-GitHub-blue?style=flat-square&logo=github)](https://github.com/DecryptMike/DecryptMike-AI-Backend)
-[![MIT License](https://img.shields.io/badge/License-MIT-black?style=flat-square)](LICENSE)
-
+![License](https://img.shields.io/github/license/DecryptMike/DecryptMike-Web-Vuln-Scanner)
 
 <p align="center">
   <img src="DecryptMikeLogo.png" alt="DecryptMike Logo" style="max-width: 100%; height: auto;"/>
